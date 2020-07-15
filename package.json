@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg ."
   },
   "author": "",
   "license": "ISC",
@@ -11,7 +12,8 @@
     "adm-zip": "^0.4.16",
     "babel-loader": "^8.1.0",
     "irc": "^0.5.2",
-    "irc-dcc": "^0.2.4"  
+    "irc-dcc": "^0.2.4",
+    "pkg": "^4.4.9"
   },
   "bin": {
     "bookwrm": "index.js"
